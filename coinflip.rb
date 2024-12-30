@@ -1,3 +1,16 @@
+# Coin Flip Game using the Martingale betting system
+# See: https://en.wikipedia.org/wiki/Martingale_(betting_system)
+#
+# The Martingale strategy has the gambler double their bet after every loss, 
+# so that the first win would recover all previous losses plus win a profit 
+# equal to the original stake.
+#
+# WARNING: While this strategy may appear sound, it can lead to catastrophic
+# losses due to:
+# 1. Limited bankroll
+# 2. Exponential growth of bets
+# 3. Higher than intuitive probability of long losing streaks
+
 require 'optparse'
 
 # Helper methods
